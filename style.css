@@ -10,29 +10,38 @@
   }
   
   #wrap{
-    margin: auto;
-    width: 100%;
-    padding: 20px;
+    /*margin: auto;*/
+    width: 150%;
+    /*padding: 20px;*/
   }
   
   nav {
-    padding: 8px 40px;
+    padding: 10px 50px;
     border-radius: 10px;
+    white-space: nowrap
   }
   
+  ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+
   .main-menu ul li a {
     display: block;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
   }
   
-  .main-menu ul li a:hover {
-    background: #960;
-  }
+  /*.main-menu ul li a:hover {
+    background: #EBF5CF;
+  }*/
   
   header{
-    padding: 40px;
-    background-color: #fc6;
+    padding: 20px;
+    background-color: #9c3;
     color: ivory;
+    white-space: nowrap
   }
     header h1{
       margin-right: auto;
@@ -70,22 +79,17 @@
     */
   
   img {
-    width: 90%;
-    height: auto;
-    padding: 15px;
-  }
-  
-  .image {
+    width: 40%;
+      height: auto;
+      padding: 15px;
+    }
+
+  ul {
+      width: 110%;
+      /*padding: 0;
+      margin: 0;*/
       display: flex;
-      flex-wrap: wrap; 
-      padding: 10px;
-  }
-  
-  .image li{
-      box-sizing: border-box;
-      width: 50%;
-      padding: 5px;
-  }
+    }
   
   section{
     padding: 10px;
@@ -102,7 +106,7 @@
   
   footer{
     padding: 40px;
-    background-color: #fc6;
+    background-color: #9c3;
     color: ivory;
   }
   
@@ -124,21 +128,6 @@
   }
   
   
-  #slideContainer {
-    max-width:800px;
-    margin: 2rem auto;
-  }
-  
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .circle img {
-    display: flex;
-    border-radius: 50%;
-    width: 300px
-  }
   
   .form-text {
     width: 300%;
@@ -183,22 +172,7 @@
     text-align: center;
   }
   
-  a.pagetop {
-    display: block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 12px;
-    /*border-top-left-radius: 10px;
-    border-top-right-radius: 10px;*/
-    border-radius: 25px;
-    background-color: #fc6;
-    color: #FFF;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
+  
   
   /*タブレット用*/
   @media all and (max-width: 1024px) {
