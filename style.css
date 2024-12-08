@@ -1,54 +1,64 @@
 *{
-    margin: 0;
+    margin: auto;
+    text-align: center;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    
   }
   
   body {
-    font-family: fot-tsukuardgothic-std,sans-serif;
-    font-weight: 400;
+    font-family: 'Arial','TsukuARdGothic-Regular','ヒラギノ角ゴ Pro W3,sans-serif';
+    font-weight: 300;
     font-style: normal;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    background-color: #fff8f0;
+    color: #4f2702;
     }
 
-    body {
-      background-color: rgba(106,135,194,.4);
+  
+
+    p{
+      text-align: center;
     }
+    
     h1 {
       margin: 20px 20px 10px;
       font-size: 85%;
     }
-    
-    button {
-      margin: 0 20px 40px;
-      padding: 1em 2em;
-      border: none;
-      display: inline-block;
-      background-color: #5A7AB3;
-      box-shadow: 0 6px #4063A4;
-      font-size: 114%;
-      line-height: 1;
-      color: #fff;
-      position: relative;
-      cursor: pointer;
-    }
 
     .button {
-      border-radius: 1.5em;
-      box-shadow: 0 6px #4063A4;
-      top: 0;
-      transition: .2s box-shadow,.2s top,.4s ;
-    }
-    .button:hover {
-      box-shadow: 0 5px #4063A4;
-      top: 1px;
-    }
-    .button:active {
-      background-color: #4163A7;
-      box-shadow: 0 0 #4063A4;
-      top: 6px;
-    }
+      background-color: #79c28d;
+      border: 3px solid #79c28d;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+      color: #fff;
+      display: inline-block;
+      font-weight: 700;
+      padding: 1.25rem 4rem;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: .3s;
+  }
+  
+  .button:hover {
+      background-color: #fff;
+      color: #79c28d;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .download {
+    display: flex;
+  }
+
+  .ul {
+    justify-content: space-between;
+    display: flex;
+
+  }
     
   a{
     color:ivory;
@@ -73,22 +83,7 @@
     justify-content: space-around;
   }
 
-  /*　buttonF　*/
-.buttonF {
-  border-radius: .5em;
-  box-shadow: 0 6px #4063A4;
-  top: 0;
-  transition: .2s box-shadow,.2s top,.4s background;
-}
-.buttonF:hover {
-  box-shadow: 0 5px #4063A4;
-  top: 1px;
-}
-.buttonF:active {
-  background-color: #4163A7;
-  box-shadow: 0 0 #4063A4;
-  top: 6px;
-}
+ 
 
   .main-menu ul li a {
     display: block;
@@ -149,12 +144,14 @@
     */
   
     img {
-      width: 80%;
+      width: 50%;
       height: auto;
       padding: 30px;
+      text-align: center;
+      text-align: left;
     }
 
-   
+    
 
   ul {
       width: 110%;
@@ -201,49 +198,6 @@
   
   
   
-  .form-text {
-    width: 300%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    max-width: 400px;
-  }
-  
-  .form-textarea {
-    width:  225%;
-    padding: 10px;
-    height: 100px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
-  
-  .contact-submit {
-    width: 250px; /* 横幅指定 */
-    background-color: #666; /* 背景色 */
-    color: #fff; /* 文字色 */
-    font-weight: bold; /* 文字の太さ */
-    display: block; /* インライン要素をブロック要素に変更 */
-    margin: 0 auto; /* 中央寄せ */
-    font-size: 16px; /* 文字の大きさ */
-    padding: 15px; /* 内側の余白 */
-    border-radius: 100vh; /* 角丸指定 */
-    border: none;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-  }
-  
-  
-  
-  
-  
   /*タブレット用*/
   @media all and (max-width: 1024px) {
     #wrap {
@@ -272,5 +226,5 @@
   }
   
   .text {
-    text-align: start;
+    text-align: center;
   }
