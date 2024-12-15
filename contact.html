@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -13,7 +14,7 @@
   <title>わたしのきもち、あなたに届け</title>
 
   <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
       $(".slider").bxSlider({
         slideWidth: 400,
         captions: true,
@@ -41,19 +42,44 @@
       </nav>
     </header>
 
-    
+    <br><span style="font-size:150%;">
+      <h1>お問い合わせ</h1>
+    </span>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7-P-r1bNcSD8J15GOHpXEAOpI8Ze22PgjOk4rP7LfUxzYZw/viewform?embedded=true" width="640" height="786" frameborder="0" marginheight="0" marginwidth="0">お問合せ</iframe>
+    <p class="tukushi-light">
+ <br><br>何か疑問点などございましたら、気軽にご連絡ください。
+ <br><br>回答は「わたしの気持ち、あなたに届け」プロジェクトのみで利用し、それ以外で利用することはありません。<br><br>
+</p>
 
+    <div class="Form">
+      <div class="Form-Item">
+        <p class="Form-Item-Label">氏名</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">電話番号</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">メールアドレス</p>
+        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg">お問い合わせ内容</p>
+        <textarea class="Form-Item-Textarea"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する">
+      <br><br><br><br><br>
+    </div>
 </body>
-     
 
-    <footer>
-      &copy; 
-      <a href="https://www.instagram.com/iz_2o24y/" target="_blank">My Instagram</a>
-    </footer>
-   
-  </div>
+
+<footer>
+  &copy;
+  <a href="https://www.instagram.com/iz_2o24y/" target="_blank">My Instagram</a>
+</footer>
+
+</div>
 
 </body>
 

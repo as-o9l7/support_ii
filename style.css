@@ -1,230 +1,385 @@
-*{
-    margin: auto;
-    text-align: center;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    
-  }
+* {
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+body {
+  font-family: 'Arial', 'TsukuARdGothic-Regular', 'ヒラギノ角ゴ Pro W3,sans-serif';
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+  background-color: #fff8f0;
   
-  body {
-    font-family: 'Arial','TsukuARdGothic-Regular','ヒラギノ角ゴ Pro W3,sans-serif';
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 2px;
-    background-color: #fff8f0;
-    color: #4f2702;
-    }
+}
 
-  
 
-    p{
-      text-align: center;
-    }
-    
-    h1 {
-      margin: 20px 20px 10px;
-      font-size: 85%;
-    }
 
-    .button {
-      background-color: #79c28d;
-      border: 3px solid #79c28d;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
-      color: #fff;
-      display: inline-block;
-      font-weight: 700;
-      padding: 1.25rem 4rem;
-      position: relative;
-      text-align: center;
-      text-decoration: none;
-      transition: .3s;
-  }
-  
-  .button:hover {
-      background-color: #fff;
-      color: #79c28d;
-  }
+p {
+  text-align: center;
+}
 
-  button {
-    cursor: pointer;
-  }
+h1 {
+  margin: 20px 20px 10px;
+  font-size: 85%;
+}
 
-  .download {
-    display: flex;
-  }
+.button {
+  background-color: #79c28d;
+  border: 3px solid #79c28d;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 1.25rem 4rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+}
 
-  .ul {
-    justify-content: space-between;
-    display: flex;
+.button:hover {
+  background-color: #fff;
+  color: #79c28d;
+}
 
-  }
-    
-  a{
-    color:ivory;
-  }
-  
-  #wrap{
-    /*margin: auto;*/
-    width: 150%;
-    /*padding: 20px;*/
-  }
-  
-  nav {
-    padding: 10px 50px;
-    border-radius: 10px;
-    white-space: nowrap
-  }
+button {
+  cursor: pointer;
+}
 
-  
-  
-  ul{
-    display: flex;
-    justify-content: space-around;
-  }
+.download {
+  display: flex;
+  justify-content: center;
 
- 
+}
 
-  .main-menu ul li a {
-    display: block;
-    /*padding: 10px 20px;*/
-  }
-  
-  /*.main-menu ul li a:hover {
+
+.gallery {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px 20px; 
+}
+
+a {
+  color: ivory;
+}
+
+#wrap {
+  /*margin: auto;*/
+  width: 150%;
+  /*padding: 20px;*/
+}
+
+nav {
+  padding: 10px 50px;
+  border-radius: 10px;
+  white-space: nowrap
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.main-menu ul li a:hover {
+  color: #005803;
+}
+  /*display: block;*/
+  /*padding: 10px 20px;*/
+
+
+/*.main-menu ul li a:hover {
     background: #EBF5CF;
   }*/
-  
-  header{
-    padding: 20px;
-    background-color: #79c28d;
-    color: ivory;
-    white-space: nowrap
 
-  }
-    header h1{
-      margin-right: auto;
-    }
-    header ul{
-      margin-top: 20px;
-      /*display: flex;*/
-    }
-    header li{
-      width: auto;
-      margin-right: 20px;
-    }
+header {
+  padding: 20px;
+  background-color: #79c28d;
+  color: ivory;
+  white-space: nowrap
+}
 
-    footer{
-      padding: 40px;
-      background-color: #79c28d;
-      color: ivory;
-      text-align: center;
-    }
-  
-  div {
-      margin: auto; /* 左右均等にスペースを作る */
-  }
-  
-  section{
-    color: #000000
-  }
-  
-  main{
-      padding: 40px;
-      height : 200px;
-  }
-  
-  p {
-    line-height: 2.5;
-  }
+header h1 {
+  margin-right: auto;
+}
 
-  
-  /*.text{
+header ul {
+  margin-top: 20px;
+  /*display: flex;*/
+}
+
+header li {
+  width: auto;
+  margin-right: 20px;
+}
+
+footer {
+  padding: 30px;
+  background-color: #79c28d;
+  color: ivory;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  /* 左右均等にスペースを作る */
+}
+
+section {
+  color: #000000
+}
+
+main {
+  padding: 40px;
+  height: 200px;
+}
+
+p {
+  line-height: 2.5;
+}
+
+
+/*.text{
     display:flex;
   }
     */
-  
-    img {
-      width: 50%;
-      height: auto;
-      padding: 30px;
-      text-align: center;
-      text-align: left;
-    }
 
-    
+img {
+  width: 50%;
+  height: auto;
+  padding: 30px;
+  text-align: center;
+  text-align: left;
+}
 
-  ul {
-      width: 110%;
-      /*padding: 0;
+
+
+ul {
+  width: 110%;
+  /*padding: 0;
       margin: 0;*/
-      display: flex;
-    }
-  
-  section{
-    /*padding: 10px;*/
-    margin-bottom: 10px;
-    background-color: #fff8f0;
-    min-height: 700px;
-    max-height: 2000px;
-    /*width: 1200px;*/
-    box-sizing: border-box;
-    
-    section h1{
-      margin-bottom: 12px;
-    }
-    section p {
-      margin-bottom: 40px;
-    }
+  display: flex;
+}
+
+section {
+  /*padding: 10px;*/
+  margin-bottom: 10px;
+  background-color: #fff8f0;
+  min-height: 700px;
+  max-height: 2000px;
+  /*width: 1200px;*/
+  box-sizing: border-box;
+
+  section h1 {
+    margin-bottom: 12px;
   }
 
-  
-  
-  @media all and (min-width: 600px) {
-    header{
-      display: flex;
-    }
-      header ul {
-        margin-top: 0;
-      }
+  section p {
+    margin-bottom: 40px;
   }
-  
-  @media all and (min-width: 1000px) {
-    #wrap {
-      width: 100%;
-      max-width: 1400px;
-    }
-   
+}
+
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
   }
-  
-  
-  
-  /*タブレット用*/
-  @media all and (max-width: 1024px) {
-    #wrap {
-      width: 100%;
-    }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
   }
-  
-  /*スマホ用*/
-  @media all and (max-width: 599px) {
-    .main-menu ul {
-      display: block;
-    }
-  
-    .main-menu ul li {
-      text-align: center;
-    }
-  
-    main {
-      display: block;
-      flex-direction: unset;
-    }
-  
-    .sub-menu ul li {
-      text-align: center;
-    }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
   }
-  
-  .text {
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #79c175;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #79c175;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+  }
+
+  header ul {
+    margin-top: 0;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  #wrap {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+}
+
+
+
+/*タブレット用*/
+@media all and (max-width: 1024px) {
+  #wrap {
+    width: 100%;
+  }
+}
+
+/*スマホ用*/
+@media all and (max-width: 599px) {
+  .main-menu ul {
+    display: block;
+  }
+
+  .main-menu ul li {
     text-align: center;
   }
+
+  main {
+    display: block;
+    flex-direction: unset;
+  }
+
+  .sub-menu ul li {
+    text-align: center;
+  }
+}
+
+.text {
+  text-align: center;
+}
